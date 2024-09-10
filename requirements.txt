@@ -1,0 +1,6 @@
+flask
+waitress
+loguru
+pretty_errors
+celery
+redis
