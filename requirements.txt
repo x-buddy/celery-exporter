@@ -4,3 +4,4 @@ loguru
 pretty_errors
 celery
 redis
+prometheus_client
