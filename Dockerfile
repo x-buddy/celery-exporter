@@ -4,7 +4,7 @@ FROM python:3.9
 COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 COPY . /app/
 
-pip install -r /app/requirements.txt
+RUN pip3 install -r /app/requirements.txt
 
 EXPOSE 9808
 
